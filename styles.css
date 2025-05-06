@@ -102,7 +102,7 @@ main {
 
 /* Footer Styles */
 footer {
-  background: #4609098b;
+  background: #f90404eb;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
@@ -144,4 +144,34 @@ a:hover {
       display: block;
       margin: 0.5rem 0;
   }
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #150202ee;
+  color: #fff;
+  padding: 20px;
+}
+
+.column {
+  width: 27%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
 }
